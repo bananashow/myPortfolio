@@ -1,0 +1,134 @@
+h1 {
+	font-size: 50pt;
+}
+
+.myTitle {
+	text-align: center;
+	margin: 80px;
+}
+
+#outBox {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#inBox {
+	display: inline-block;
+	width: 80%;
+	height: 2000px;
+}
+
+.section {
+	margin-top: 80px;
+	margin-bottom: 100px;
+	display: inline-block;
+	width: 95%;
+	height: 500px;
+	text-align: center;
+}
+
+.section-img {
+	margin: 20px 0 20px 32px;
+	display: inline-block;
+	width: 47%;
+	height: 92%;
+	background: white;
+	float: left;
+}
+
+.section-text {
+	text-align: left;
+	margin: 20px;
+	display: inline-block;
+	width: 47%;
+	height: 92%;
+	background: white;
+}
+
+.section-img img {
+	width: 370px;
+	text-align: center;
+}
+
+#line {
+	margin: 20px 20px 20px 0px;
+	width: 200px;
+}
+
+.section-text h3 {
+	font-size: 30pt;
+	font-family: 'Gugi', cursive;
+	color: #575757;
+}
+
+.section-text h2 {
+	font-size: 40pt;
+	font-family: 'Gugi', cursive;
+	line-height: 40px;
+}
+
+.section-text img {
+	margin: 0px;
+	height: 10px;
+	width: 300px;
+}
+
+.section-text p {
+	font-family: 'Gowun Dodum', sans-serif;
+	font-size: 17pt;
+	line-height: 35px;
+}
+
+#portfolioGO {
+	height: 65px;
+	background-color: #e9adae;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+#portfolioGOa {
+	font-family: 'Gowun Dodum', sans-serif;
+	font-size: 15pt;
+	color: white;
+	text-decoration: none;
+}
+
+#icons {
+	margin-left: 200px;
+	margin-right: 10px;
+	width: 30px;
+}
+
+#headerBg {
+	background: #e9adae;
+}
+
+#skill {
+	background-color: #e9adae;
+}
+
+#shortcut {
+	width: 350px;
+}
+
+.lg_text {
+	font-family: 'Gowun Dodum', sans-serif;
+	font-size: 25pt;
+	line-height: 50%;
+}
+
+#myProfile {
+	margin-bottom: 20px;
+	line-height: 100%;
+	font-size: 15pt;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+	color: #254667;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+#myProfile:hover {
+	color: #3865cd;
+}
