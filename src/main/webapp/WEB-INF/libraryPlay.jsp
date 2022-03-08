@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>TO-DO-LIST SEE LIVE</title>
+</head>
+<body>
+	<video autoplay controls muted> 
+  <source src="/assets/img/wisdomLibraryPlay.mp4">
+  </video>
+  <input type="button" value="close" onclick="window.close()">
+</body>
+</html>

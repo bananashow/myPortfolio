@@ -72,12 +72,6 @@
 				</div>
 		</div>
 	</div>
-	
-    <div class="container d-flex align-items-center flex-column">
-		<h1 class="masthead-heading text-uppercase mb-0" id="whois">주변 사람들이 말하는 나</h1>
-	</div>
-	
-	<jsp:include page="slide.jsp"></jsp:include>
 
 	<div id="portfolioGO">
 	<a href="/" id="portfolioGOa">

@@ -25,4 +25,9 @@ public class MyPortfolioController {
 	public String todoplay() {
 		return "todoPlay";
 	}
+
+	@RequestMapping("/libraryPlay")
+	public String libraryPlay() {
+		return "libraryPlay";
+	}
 }

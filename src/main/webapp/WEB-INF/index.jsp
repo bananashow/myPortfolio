@@ -108,7 +108,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/mainCap03.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
@@ -333,13 +333,15 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/mainCap03.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="mb-4">'Wisdom Library'는 스프링 MVC 기반의 도서 관리 시스템으로<br /> 관리자와 회원으로 구분하여 이용할 수 있도록 페이지 제작을 하였습니다.<br />
+                                    <p><b>참여도</b> : 100% <br />
+                                    <b>front-end</b> : HTML5, CSS, JavaScript, JQuery<br />
+                                    <b>back-end</b> : SpringBoot, MySQL <br />
+                                    </p>
+                                    <input type="button" value="GitHub" onclick="projectLibrary()">
+                                    <input type="button" value="SEE LIVE" onclick="LibraryPlay()">
                                 </div>
                             </div>
                         </div>
@@ -513,8 +515,16 @@
         	window.open('https://github.com/bananashow/to-do-list','TO-DO LIST','height=' + screen.height + ', width=' + screen.width + 'fullscreen=yes')
         }
         
+        function projectLibrary() {
+        	window.open('https://github.com/bananashow/wisdom-library','WISDOM LIBRARY','height=' + screen.height + ', width=' + screen.width + 'fullscreen=yes')
+        }
+        
         function todolistPlay() {
         	window.open('todoplay','TO-DO LIST',"width=880, height=800");
+        }
+        
+        function LibraryPlay() {
+        	window.open('libraryPlay','Wisdom library',"width=1750, height=940");
         }
         
         </script>
