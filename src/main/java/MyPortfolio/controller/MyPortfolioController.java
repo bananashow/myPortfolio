@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MyPortfolioController {
 
-	@RequestMapping("/")
+	@RequestMapping("/index.html")
 	public String indexGo() {
 		return "index";
 	}
