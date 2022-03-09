@@ -5,11 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MyPortfolioController {
-
-	@RequestMapping("/index.html")
-	public String indexGo() {
-		return "index";
-	}
 	
 	@RequestMapping("/myProfile")
 	public String myProfile() {
