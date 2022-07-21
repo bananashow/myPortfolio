@@ -117,7 +117,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/mainCap04.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -359,7 +359,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">유림더숲 홈페이지 제작</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -367,13 +367,18 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/mainCap04.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="mb-4">'유림 더 숲'은 실제 서비스중인 홈페이지로, 관리자 페이지를 별도로 제작하였습니다.<br />
+                                    				관리자로 로그인 후 이미지 파일과 정보를 업로드하면 메뉴마다 리스트를 추가할 수 있습니다. <br />
+                                    				<a href="http://yurimthesup.cafe24.com" target="_blank">홈페이지 바로가기</a>
+                                    <p><b>참여도</b> : 100% <br />
+                                    <b>front-end</b> : HTML5, CSS, JavaScript, JQuery<br />
+                                    <b>back-end</b> : SpringBoot, MySQL <br />
+                                    <b>hosting</b> : cafe24 <br />
+                                    </p>
+                                    <input type="button" value="GitHub" onclick="projectLibrary()">
+                                    <input type="button" value="SEE LIVE" onclick="YurimPlay()">
                                 </div>
                             </div>
                         </div>
@@ -525,6 +530,10 @@
         
         function LibraryPlay() {
         	window.open('libraryPlay','Wisdom library',"width=1750, height=940");
+        }
+        
+        function YurimPlay() {
+        	window.open('yurimPlay','Yurim The Sup',"width=1850, height=980");
         }
         
         </script>

@@ -25,4 +25,9 @@ public class MyPortfolioController {
 	public String libraryPlay() {
 		return "libraryPlay";
 	}
+	
+	@RequestMapping("/yurimPlay")
+	public String yurimPlay() {
+		return "yurimPlay";
+	}
 }

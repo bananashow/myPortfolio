@@ -90,11 +90,11 @@
 	
 	
 	
-	<div class="myTitle">
+<%-- 	<div class="myTitle">
 		<h1 style="margin-top: 300px;">주변 사람들이 말하는 나</h1>
 	</div>
 	
-	<jsp:include page="slide.jsp"></jsp:include>
+	<jsp:include page="slide.jsp"></jsp:include> --%>
 
 	<div id="portfolioGO">
 	<a href="/" id="portfolioGOa">
