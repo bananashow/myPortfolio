@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>TO-DO-LIST SEE LIVE</title>
+<title>Yurim SEE LIVE</title>
 </head>
 <body>
 	<video autoplay controls muted> 
